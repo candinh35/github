@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header></header>
+        <nav></nav>
+        <div class="content">
+            <section class="col-1"></section>
+            <section class="col-2"></section>
+            <section class="col-3"></section>
+        </div>
+        <footer></footer>
+    </div>
+
+<style>
+    .wrapper{
+        width: 1200px;
+        margin: 0px auto;
+    }
+
+    .wrapper > header{
+        height: 50px;
+        background: #cdcdcd;
+    }
+
+    .wrapper > nav{
+        height: 30px;
+        margin-top:5px;
+        background: #cdcdcd;
+    }
+
+    .wrapper > .content{
+        margin-top:5px;
+        border:1px solid red;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .wrapper .content > section{
+        height: 400px;
+    }
+
+    section.col-1{
+        width: 20%;
+        float:left;
+        background: #cdcdcd;
+    }
+
+    section.col-2{
+        width: 55%;
+        float:left;
+        background: #cdcdcd;
+        margin-left:2.5%
+    }
+
+    section.col-3{
+        width: 20%;
+        float:right;
+        background: #cdcdcd;
+    }
+
+
+    footer{
+        height: 50px;
+        background: #cdcdcd;
+        margin-top:10px
+    }
+
+
+</style>
+</body>
+</html>
